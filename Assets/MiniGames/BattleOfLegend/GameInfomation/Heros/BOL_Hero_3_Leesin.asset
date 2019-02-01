@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d168c915cfcc44eaaa0979c7e689c6, type: 3}
+  m_Name: BOL_Hero_3_Leesin
+  m_EditorClassIdentifier: 
+  myType: 2
+  myNameKeyLocalize: 
+  heroPrefab: {fileID: 0}
+  autoUnlockAtFirst: 0
+  canEnable: 0
+  baseHp: 13500
+  baseMana: 1650
+  baseShield: 600
+  baseDamageAtk1: 150
+  baseDamageAtk2: 100
+  baseDamageSkill1: 100
+  baseDamageSkill2: 150
+  baseDamageSpell: 200
+  baseDamagUtil: 250
+  expUnlockAtk2: 200
+  expUnlockSkill01: 400
+  expUnlockSkill02: 600
+  expUnlockUlti: 1000
+  skill01: {fileID: 11400000, guid: 3f933a207e1774904bfd77e91e71c56d, type: 2}
+  skill02: {fileID: 11400000, guid: 61c519b7184654670845cb4629a11a64, type: 2}
+  spell: {fileID: 11400000, guid: 64c837d87d55c427dab9296be6b8e4f3, type: 2}
+  ulti: {fileID: 11400000, guid: 1e503d7fd02a846278ea3c9b84df6037, type: 2}

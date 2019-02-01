@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1701807152430038}
+  m_IsPrefabAsset: 1
+--- !u!1 &1701807152430038
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4594912871718294}
+  - component: {fileID: 114294693291475084}
+  m_Layer: 0
+  m_Name: TestForGetLocalizeInfo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4594912871718294
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1701807152430038}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114294693291475084
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1701807152430038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea665ca9e83f84ba41de8a6412ba8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myListLocalizeInfo:
+    localize_En: {fileID: 11400000, guid: b3eb184d31b6805419c6613769be7f86, type: 2}
+  googleSheetAppID: AIzaSyB1XRN504TrfH9vdxOH8dKuXTvNHF99e4k
+  spreadSheetID: 1vj0_ZELm7uNbweMhkfAzKpRtx8x3517d9pG43BZAzbo
+  sheetID: Export
+  fromCell: A2
+  toCell: H2
+  listDetail:
+  - Global#Ok;OK#Close;Close#Quit;Quit#Update;Update#Yes;Yes#No;No#Error;Error#Warning;Warning#Message;Message#Skip;Skip#TryAgain;Try
+    Again#Cancel;Cancel#CanNotClaim;Can not claim#Day;Day#Congratulations;CONGRATULATIONS#Claim;Claim#Leaderboard_TopGold;Top
+    Gold#Sound;Sound#Music;Music#Vibrate;Vibrate#ContactUs;Contact Us#Logout;Logout#On;On#Off;Off#Setting;Setting#UpgradeNewVersion;Have
+    New Version#PlsSelectChip;Please Select Chip#Wating;Waiting...#NotEnoughMoney;Not
+    enough gold#Empty;Empty#ChooseAvatar;Choose Avatar#CommingSoon;Comming Soon!!!#OutRoom;Out
+    Room#RateUs;Rate us
+  - RegisAndLogin#PassIsInvalid_00;Password incorrect. Please try again again.#UserNameIsInvalid;Sorry,
+    only letter (a-z), and number (0-9) are allowed#PassIsInvalid_01;Sorry, only letter
+    (a-z), and number (0-9) are allowed#UsernameAlreadyExists;This Username already
+    exist. Please try another!!!!#PassIsTooLong;Sorry, your password must be between
+    3 and 25 characters long.#ConfirmPwNotMatch;Those passwords did not match, please
+    try again.#ConfirmEmailNotMatch;Those email did not match, please try again.#Username_Error_0;Sorry,
+    your password must be between 3 and 25 characters long.#Password_Error_0;Sorry,
+    your password must be between 3 and 25 characters long.#Field_ChangePassword;Change
+    Password#Field_VerifyEmail;Verify email#Field_CurrentPassword;Current password#Field_NewPassword;New
+    password#Field_ConfirmNewPassword;Confirm new password#UserDoesnotExist;That Bigxu
+    account does not exists.Enter a different account or get new one#Field_Email;Email#Field_ConfirmEmail;Confirm
+    email#EmailIsInvalid;Email is invalid. Please re-type again.#Field_ForgotPassword;Forgot
+    Password?#Field_UserName;UserName#ChangePasswordSuccessful;Changed password successful!!!#ChangePasswordFailed;Changed
+    password failed!!!#Message_PlsTypeYourField;Please type your {0}#VerifyEmailSuccessful;Verify
+    email successful!!!#VerifyEmailFailed;Verify email failed!!!#EmailIsTooShort;Sorry,
+    your email must be more than 9 characters long.
+  - Error#ConnectionError;Connection Error.#SystemError;System Error.#UnauthorizedError;Unauthorized
+    Error.#InstallApp_Error_1;Mission Invisible.#InstallApp_Error_2;Error loading
+    database!!! Try again later.#InstallApp_Error_3;Claimed!!!!#InstallApp_Error_4;Mission
+    is out of date.#InstallApp_Error_5;Can not get user info (user not register)#IAP_CanNotFindPackage;Can
+    not find package.#IAP_FailedToRestore;Failed to restore purchased packages.#IAP_CanNotConnectToAppStore;Can
+    not connect to App Store.#IAP_FailedToVerifyReceipt;Failed to verify receipt.#IAP_CanNotPurchase;Can
+    not purchase.#GamePlay_CanNotSitDown;Can not sit down here.#IAP_PurchaseUnsuccessful;Sorry
+    purchase unsuccessful. Please contact our Help Center.#ServerIsMaintenance;Server
+    maintenting#GamePlay_BetError_0;Bet error.
+  - 'System#ForcedUpdate;Client version not supported. Please update your game client!#HasNewVersion;New
+    version is available!!!!#AskForQuit;Do you want to quit?#IAP_Warning_CloseConnectToSv;Oops,
+    sorry that was by mistake!!! Please don''t clear data!!!
+
+    (Resend in history purchase or Reopen game)
+
+    #AskForLogOut;Do you want to logout?#AskForOutRoom;Do you want to out room?#AskForStandUp;Do
+    you want to stand up?#Message_PlayGame_NotEnoughMoney;You don''t have enough gold.
+    (Min bet: {0} gold)#Message_PlayGame_SetBetFail;Error!!! (Min bet: {0} gold)#Message_PlayGame_SetBetOK;Success!!!
+    ( Bet in Lobby: {0} gold)#Message_InfoNotAvailable;Info not available.#Message_Subsidy_UnqualifiedClaim;Could
+    not get subsidy gold (your gold better than {0} gold)#Message_ServerMaintenance;Server
+    will be maintenanced in {0:00}:{1:00}#Message_RemindRating_00;Are You Having Fun?#Message_RemindRating_01;Show
+    Us how much you love and give it <color=yellow>5 stars!!!</color>'
+  - ChooseTable#SeverFull;Sever is full.#TableFull;Table is full.#RoomIsNotAvailable;Room
+    is not available#RoomOutOfDate;You need to update new version to join this room#CreateTable_TitleCreateTable;Create
+    Table#CreateTable_TitSetPass;Create Password:#CreateTable_PlaceHolder_EnterPass;Enter
+    Password...#CreateTable_TitleJoinTable;Join Table#CreateTable_TitEnterPass;Password:#CreateTable_TitEnterId;Table
+    ID:#CreateTable_PlaceHolder_EnterID;Enter ID...#CreateTable_TABLE_LAST_SESSION_EXIST;The
+    user id already exists.#JoinTableFailed;Failed to join table.
+  - Uno#FinishGame_Reason_TimeOut;Time Out#FinishGame_Reason_NoGlobalCards;Out Of
+    Cards#FinishGame_Reason_Victory;Victory#FinishGame_Reason_Finish;Finish
+  - 'BOL#Message_PlayGame_NotEnoughMoney;You don''t have enough gold. (Max bet: {0}
+    gold)#Message_PlayGame_SetBetFail;Error!!! (Min bet: {0} gold)#Message_PlayGame_SetBetOK;Success!!!
+    ( Bet in Lobby: {0} gold)#Message_PlayGame_SetBetFail_notSitdown;Error!!! (Please
+    Choice Chair)#Message_Player_SetBetOK;{0} change bet success!!! ( Bet in Lobby:
+    {1} gold)#Message_Player_Spell_1;<size=36><color=yellow>Punish:</color></size>
+    Destroy all <color=yellow>Attack 1</color> cubes and deal dame immediately#Message_Player_Spell_2;<size=36><color=red>Finish
+    Off:</color></size> Destroy all <color=red>Attack 2</color> cubes and deal dame
+    immediately#Message_Player_Spell_3;<size=36><color=green>Health:</color></size>
+    Destroy all <color=green>Health:</color> cubes on the battle and recover that
+    much heal#Message_Player_Spell_4;<size=36><color=blue>Mana recovery:</color></size>
+    Destroy all <color=blue>Mana</color> cubes on the battle and recover that much
+    mana#Message_Player_Spell_5;<size=36><color=orange>Shield: </color></size>Destroy
+    all <color=orange>Shield </color>cubes on the battle and gain that much Sheild#Message_NotEnoughMana;Not
+    enough mana#HeroDetaihero_1_skill_1;skill 1 of hero 1#HeroDetaihero_1_skill_2;skill
+    2 of hero 1#HeroDetaihero_1_skill_3;skill 3 of hero 1#HeroDetaihero_2_skill_1;skill
+    1 of hero 2#HeroDetaihero_2_skill_2;skill 2 of hero 2#HeroDetaihero_2_skill_3;skill
+    3 of hero 2#HeroDetaihero_3_skill_1;skill 1 of hero 3#HeroDetaihero_3_skill_2;skill
+    2 of hero 3#HeroDetaihero_3_skill_3;skill 3 of hero 3#HeroDetaihero_4_skill_1;skill
+    1 of hero 4#HeroDetaihero_4_skill_2;skill 2 of hero 4#HeroDetaihero_4_skill_3;skill
+    3 of hero 4#HeroDetaihero_5_skill_1;skill 1 of hero 5#HeroDetaihero_5_skill_2;skill
+    2 of hero 5#HeroDetaihero_5_skill_3;skill 3 of hero 5'
+  - 'InviteFriend#YourInvitationCode;Your Code: {0:0}#YouHaveBeenInvitedBy;You have
+    been invited by :#PlsInputYourParentCode;Enter code from the invite you received.#YouHadBeenInvitedBefore;You
+    had been invited before.#TitleConfirm;Did this User invited you?#InvalidCode;Invalid
+    Code#CouldNotFound;Could not found'

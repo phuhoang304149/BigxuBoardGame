@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1341617876490718}
+  m_IsPrefabAsset: 1
+--- !u!1 &1341617876490718
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4386795562938834}
+  - component: {fileID: 114934593038052584}
+  m_Layer: 0
+  m_Name: TEST
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4386795562938834
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341617876490718}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114934593038052584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1341617876490718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942c1eb0fc771be4383e2f21091d634d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poker_GamePlay_Manager: {fileID: 0}
+  listCardDetail:
+  - cardInfo: {fileID: 11400000, guid: ff03d34bcf544c4468817537dbb2c73d, type: 2}
+    cardId: 0
+  - cardInfo: {fileID: 11400000, guid: d7e5b09ad1d715c4a91dd17946cd0bd2, type: 2}
+    cardId: 1
+  - cardInfo: {fileID: 11400000, guid: 3a7263e9796e541429daad5c9657fbd6, type: 2}
+    cardId: 2
+  - cardInfo: {fileID: 11400000, guid: a0c3f9baa79891e4a8c89dd23d6758ad, type: 2}
+    cardId: 3
+  - cardInfo: {fileID: 11400000, guid: 608b677fbcb11a14fae3a099177b19a2, type: 2}
+    cardId: 4
+  - cardInfo: {fileID: 11400000, guid: 8628bcacb5522754b877cc212fadd892, type: 2}
+    cardId: 5
+  - cardInfo: {fileID: 11400000, guid: c12df5a212a49404296708577036770d, type: 2}
+    cardId: 6
+  - cardInfo: {fileID: 11400000, guid: 59aa985c50b0e8840b940b638c2c27ce, type: 2}
+    cardId: 7
+  - cardInfo: {fileID: 11400000, guid: 5c151b573edc24f41a3526e1568c775c, type: 2}
+    cardId: 8
+  - cardInfo: {fileID: 11400000, guid: 7d2b1d9fde0d1ea45be711d17d0bf742, type: 2}
+    cardId: 9
+  - cardInfo: {fileID: 11400000, guid: 3356af4e767595f4a88f486a06915822, type: 2}
+    cardId: 10
+  - cardInfo: {fileID: 11400000, guid: 521805b0ed5baa34a943caf250ec9243, type: 2}
+    cardId: 11
+  - cardInfo: {fileID: 11400000, guid: 6b7032ab6f0747043a5d6887f46d40e3, type: 2}
+    cardId: 12
+  - cardInfo: {fileID: 11400000, guid: b59e2d73cca794c44a9f6336164a675f, type: 2}
+    cardId: 13
+  - cardInfo: {fileID: 11400000, guid: 6b7b561011b343b4db413100790dcc1a, type: 2}
+    cardId: 14
+  - cardInfo: {fileID: 11400000, guid: 42fb0938a973f474a86dc14de98eb351, type: 2}
+    cardId: 15
+  - cardInfo: {fileID: 11400000, guid: c0a4a25e402fda042ba3ca6937c9a526, type: 2}
+    cardId: 16
+  - cardInfo: {fileID: 11400000, guid: 2d39297e870399845b2920fbea80387d, type: 2}
+    cardId: 17
+  - cardInfo: {fileID: 11400000, guid: 081bfed810eafe443b7cb75f075b28ff, type: 2}
+    cardId: 18
+  - cardInfo: {fileID: 11400000, guid: b7a739e4368d12048b2f0ab182abfa13, type: 2}
+    cardId: 19
+  - cardInfo: {fileID: 11400000, guid: 957a544e10748644eac53ffb55ffe7a3, type: 2}
+    cardId: 20
+  - cardInfo: {fileID: 11400000, guid: 4fa22f33a4214c14b8b1fe7cfb50e17c, type: 2}
+    cardId: 21
+  - cardInfo: {fileID: 11400000, guid: bd9dbc487014970449b37179b804530a, type: 2}
+    cardId: 22
+  - cardInfo: {fileID: 11400000, guid: d65b325499a1d19488f86a592df5973b, type: 2}
+    cardId: 23
+  - cardInfo: {fileID: 11400000, guid: cf052004cd5bcc2428bf5d60a525651e, type: 2}
+    cardId: 24
+  - cardInfo: {fileID: 11400000, guid: aa6b8fec0b00afd48a5250a84d1eaab1, type: 2}
+    cardId: 25
+  - cardInfo: {fileID: 11400000, guid: d24793c6f5c50774ca3fc9f389e6d8eb, type: 2}
+    cardId: 26
+  - cardInfo: {fileID: 11400000, guid: 902fb4b7d41a53b43bdbeda44331c3a3, type: 2}
+    cardId: 27
+  - cardInfo: {fileID: 11400000, guid: 26efcbeb46ae36341bee108498d56250, type: 2}
+    cardId: 28
+  - cardInfo: {fileID: 11400000, guid: 64912ef21c0756744b1d693c2c609622, type: 2}
+    cardId: 29
+  - cardInfo: {fileID: 11400000, guid: 3b9276b85082d754a954170207cf95e9, type: 2}
+    cardId: 30
+  - cardInfo: {fileID: 11400000, guid: b21fb1e614b67b84d8f76a62e37ae574, type: 2}
+    cardId: 31
+  - cardInfo: {fileID: 11400000, guid: 5864445c11bfe9e4c82aba6ae40188e1, type: 2}
+    cardId: 32
+  - cardInfo: {fileID: 11400000, guid: f459b318fb2f2b544bf2f440eb60da90, type: 2}
+    cardId: 33
+  - cardInfo: {fileID: 11400000, guid: 25b82339493f35343882aac51ab81fb6, type: 2}
+    cardId: 34
+  - cardInfo: {fileID: 11400000, guid: c52e539f21108d24ab7cc39de8d4ea3f, type: 2}
+    cardId: 35
+  - cardInfo: {fileID: 11400000, guid: 3069f08fa2bb2a249b0e53868f30e7b6, type: 2}
+    cardId: 36
+  - cardInfo: {fileID: 11400000, guid: fd3e81ffa7b01f14d899be2951e465d8, type: 2}
+    cardId: 37
+  - cardInfo: {fileID: 11400000, guid: ca9dc5ab5b84d1c439a03938d653b3dc, type: 2}
+    cardId: 38
+  - cardInfo: {fileID: 11400000, guid: 75d00b46d22a96f469698b7561763752, type: 2}
+    cardId: 39
+  - cardInfo: {fileID: 11400000, guid: de039bef22949104d99fb3ec19cdc130, type: 2}
+    cardId: 40
+  - cardInfo: {fileID: 11400000, guid: d3febdfd2d5b8e74a9ad1c07706e377f, type: 2}
+    cardId: 41
+  - cardInfo: {fileID: 11400000, guid: 4fd40a188415c3c418bc0c43accb3495, type: 2}
+    cardId: 42
+  - cardInfo: {fileID: 11400000, guid: 7b672b63982c7184caa781fc0bf69788, type: 2}
+    cardId: 43
+  - cardInfo: {fileID: 11400000, guid: e4df58df57a14754c96aac87bb087f07, type: 2}
+    cardId: 44
+  - cardInfo: {fileID: 11400000, guid: 0619748ef5a994042a8d8d2d31b32489, type: 2}
+    cardId: 45
+  - cardInfo: {fileID: 11400000, guid: 38c89d4683eee0b4d8a31f1eb5bdc979, type: 2}
+    cardId: 46
+  - cardInfo: {fileID: 11400000, guid: f014be30ec88fd0419e61304fb92d158, type: 2}
+    cardId: 47
+  - cardInfo: {fileID: 11400000, guid: 77adc724547d1d44ab23ec1824c22d5f, type: 2}
+    cardId: 48
+  - cardInfo: {fileID: 11400000, guid: e1b533e222ccf6c4a8d72ad640984c63, type: 2}
+    cardId: 49
+  - cardInfo: {fileID: 11400000, guid: 8fd49d2a8c19d824cbdff8c79b1d81de, type: 2}
+    cardId: 50
+  - cardInfo: {fileID: 11400000, guid: f8f203a8a5f241448b6547f0055bfe0f, type: 2}
+    cardId: 51
+  ownCards: 302e
+  globalCards: 1c2a05
+  cheatCard_Global: 00000000050000000a0000000f00000013000000
+  cheatCard_Player_00: 2b00000023000000
+  cheatCard_Player_01: 0800000031000000
+  cheatCard_Player_02: 0c0000000d000000
+  cheatCard_Player_03: 1000000011000000
+  cheatCard_Player_04: 1400000015000000
+  cheatCard_Player_05: 1800000019000000
+  cheatCard_Player_06: 1c0000001d000000
+  cheatCard_Player_07: 2000000021000000
+  cheatCard_Player_08: 2400000025000000

@@ -1,0 +1,316 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a922304b5052f2c44b694db8bb03b9fa, type: 3}
+  m_Name: Localize_EN
+  m_EditorClassIdentifier: 
+  myLanguage: 0
+  store:
+    keys:
+    - Global/Ok
+    - Global/Close
+    - Global/Quit
+    - Global/Update
+    - Global/Yes
+    - Global/No
+    - Global/Error
+    - Global/Warning
+    - Global/Message
+    - Global/Skip
+    - Global/TryAgain
+    - Global/Cancel
+    - Global/CanNotClaim
+    - Global/Day
+    - Global/Congratulations
+    - Global/Claim
+    - Global/Leaderboard_TopGold
+    - Global/Sound
+    - Global/Music
+    - Global/Vibrate
+    - Global/ContactUs
+    - Global/Logout
+    - Global/On
+    - Global/Off
+    - Global/Setting
+    - Global/UpgradeNewVersion
+    - Global/PlsSelectChip
+    - Global/Wating
+    - Global/NotEnoughMoney
+    - Global/Empty
+    - Global/ChooseAvatar
+    - Global/CommingSoon
+    - Global/OutRoom
+    - Global/RateUs
+    - RegisAndLogin/PassIsInvalid_00
+    - RegisAndLogin/UserNameIsInvalid
+    - RegisAndLogin/PassIsInvalid_01
+    - RegisAndLogin/UsernameAlreadyExists
+    - RegisAndLogin/PassIsTooLong
+    - RegisAndLogin/ConfirmPwNotMatch
+    - RegisAndLogin/ConfirmEmailNotMatch
+    - RegisAndLogin/Username_Error_0
+    - RegisAndLogin/Password_Error_0
+    - RegisAndLogin/Field_ChangePassword
+    - RegisAndLogin/Field_VerifyEmail
+    - RegisAndLogin/Field_CurrentPassword
+    - RegisAndLogin/Field_NewPassword
+    - RegisAndLogin/Field_ConfirmNewPassword
+    - RegisAndLogin/UserDoesnotExist
+    - RegisAndLogin/Field_Email
+    - RegisAndLogin/Field_ConfirmEmail
+    - RegisAndLogin/EmailIsInvalid
+    - RegisAndLogin/Field_ForgotPassword
+    - RegisAndLogin/Field_UserName
+    - RegisAndLogin/ChangePasswordSuccessful
+    - RegisAndLogin/ChangePasswordFailed
+    - RegisAndLogin/Message_PlsTypeYourField
+    - RegisAndLogin/VerifyEmailSuccessful
+    - RegisAndLogin/VerifyEmailFailed
+    - RegisAndLogin/EmailIsTooShort
+    - Error/ConnectionError
+    - Error/SystemError
+    - Error/UnauthorizedError
+    - Error/InstallApp_Error_1
+    - Error/InstallApp_Error_2
+    - Error/InstallApp_Error_3
+    - Error/InstallApp_Error_4
+    - Error/InstallApp_Error_5
+    - Error/IAP_CanNotFindPackage
+    - Error/IAP_FailedToRestore
+    - Error/IAP_CanNotConnectToAppStore
+    - Error/IAP_FailedToVerifyReceipt
+    - Error/IAP_CanNotPurchase
+    - Error/GamePlay_CanNotSitDown
+    - Error/IAP_PurchaseUnsuccessful
+    - Error/ServerIsMaintenance
+    - Error/GamePlay_BetError_0
+    - System/ForcedUpdate
+    - System/HasNewVersion
+    - System/AskForQuit
+    - System/IAP_Warning_CloseConnectToSv
+    - System/AskForLogOut
+    - System/AskForOutRoom
+    - System/AskForStandUp
+    - System/Message_PlayGame_NotEnoughMoney
+    - System/Message_PlayGame_SetBetFail
+    - System/Message_PlayGame_SetBetOK
+    - System/Message_InfoNotAvailable
+    - System/Message_Subsidy_UnqualifiedClaim
+    - System/Message_ServerMaintenance
+    - System/Message_RemindRating_00
+    - System/Message_RemindRating_01
+    - ChooseTable/SeverFull
+    - ChooseTable/TableFull
+    - ChooseTable/RoomIsNotAvailable
+    - ChooseTable/RoomOutOfDate
+    - ChooseTable/CreateTable_TitleCreateTable
+    - ChooseTable/CreateTable_TitSetPass
+    - ChooseTable/CreateTable_PlaceHolder_EnterPass
+    - ChooseTable/CreateTable_TitleJoinTable
+    - ChooseTable/CreateTable_TitEnterPass
+    - ChooseTable/CreateTable_TitEnterId
+    - ChooseTable/CreateTable_PlaceHolder_EnterID
+    - ChooseTable/CreateTable_TABLE_LAST_SESSION_EXIST
+    - ChooseTable/JoinTableFailed
+    - Uno/FinishGame_Reason_TimeOut
+    - Uno/FinishGame_Reason_NoGlobalCards
+    - Uno/FinishGame_Reason_Victory
+    - Uno/FinishGame_Reason_Finish
+    - BOL/Message_PlayGame_NotEnoughMoney
+    - BOL/Message_PlayGame_SetBetFail
+    - BOL/Message_PlayGame_SetBetOK
+    - BOL/Message_PlayGame_SetBetFail_notSitdown
+    - BOL/Message_Player_SetBetOK
+    - BOL/Message_Player_Spell_1
+    - BOL/Message_Player_Spell_2
+    - BOL/Message_Player_Spell_3
+    - BOL/Message_Player_Spell_4
+    - BOL/Message_Player_Spell_5
+    - BOL/Message_NotEnoughMana
+    - BOL/HeroDetaihero_1_skill_1
+    - BOL/HeroDetaihero_1_skill_2
+    - BOL/HeroDetaihero_1_skill_3
+    - BOL/HeroDetaihero_2_skill_1
+    - BOL/HeroDetaihero_2_skill_2
+    - BOL/HeroDetaihero_2_skill_3
+    - BOL/HeroDetaihero_3_skill_1
+    - BOL/HeroDetaihero_3_skill_2
+    - BOL/HeroDetaihero_3_skill_3
+    - BOL/HeroDetaihero_4_skill_1
+    - BOL/HeroDetaihero_4_skill_2
+    - BOL/HeroDetaihero_4_skill_3
+    - BOL/HeroDetaihero_5_skill_1
+    - BOL/HeroDetaihero_5_skill_2
+    - BOL/HeroDetaihero_5_skill_3
+    - BOL/HeroDetaihero_0_skill_1
+    - BOL/HeroDetaihero_0_skill_2
+    - BOL/HeroDetaihero_0_skill_3
+    - InviteFriend/YourInvitationCode
+    - InviteFriend/YouHaveBeenInvitedBy
+    - InviteFriend/PlsInputYourParentCode
+    - InviteFriend/YouHadBeenInvitedBefore
+    - InviteFriend/TitleConfirm
+    - InviteFriend/InvalidCode
+    - InviteFriend/CouldNotFound
+    values:
+    - OK
+    - Close
+    - Quit
+    - Update
+    - Yes
+    - No
+    - Error
+    - Warning
+    - Message
+    - Skip
+    - Try Again
+    - Cancel
+    - Can not claim
+    - Day
+    - CONGRATULATIONS
+    - Claim
+    - Top Gold
+    - Sound
+    - Music
+    - Vibrate
+    - Contact Us
+    - Logout
+    - On
+    - Off
+    - Setting
+    - Have New Version
+    - Please Select Chip
+    - Waiting...
+    - Not enough gold
+    - Empty
+    - Choose Avatar
+    - Comming Soon!!!
+    - Out Room
+    - Rate us
+    - Password incorrect. Please try again again.
+    - Sorry, only letter (a-z), and number (0-9) are allowed
+    - Sorry, only letter (a-z), and number (0-9) are allowed
+    - This Username already exist. Please try another!!!!
+    - Sorry, your password must be between 3 and 25 characters long.
+    - Those passwords did not match, please try again.
+    - Those email did not match, please try again.
+    - Sorry, your password must be between 3 and 25 characters long.
+    - Sorry, your password must be between 3 and 25 characters long.
+    - Change Password
+    - Verify email
+    - Current password
+    - New password
+    - Confirm new password
+    - That Bigxu account does not exists.Enter a different account or get new one
+    - Email
+    - Confirm email
+    - Email is invalid. Please re-type again.
+    - Forgot Password?
+    - UserName
+    - Changed password successful!!!
+    - Changed password failed!!!
+    - Please type your {0}
+    - Verify email successful!!!
+    - Verify email failed!!!
+    - Sorry, your email must be more than 9 characters long.
+    - Connection Error.
+    - System Error.
+    - Unauthorized Error.
+    - Mission Invisible.
+    - Error loading database!!! Try again later.
+    - Claimed!!!!
+    - Mission is out of date.
+    - Can not get user info (user not register)
+    - Can not find package.
+    - Failed to restore purchased packages.
+    - Can not connect to App Store.
+    - Failed to verify receipt.
+    - Can not purchase.
+    - Can not sit down here.
+    - Sorry purchase unsuccessful. Please contact our Help Center.
+    - Server maintenting
+    - Bet error.
+    - Client version not supported. Please update your game client!
+    - New version is available!!!!
+    - Do you want to quit?
+    - 'Oops, sorry that was by mistake!!! Please don''t clear data!!!
+
+      (Resend in history purchase or Reopen game)
+
+'
+    - Do you want to logout?
+    - Do you want to out room?
+    - Do you want to stand up?
+    - 'You don''t have enough gold. (Min bet: {0} gold)'
+    - 'Error!!! (Min bet: {0} gold)'
+    - 'Success!!! ( Bet in Lobby: {0} gold)'
+    - Info not available.
+    - Could not get subsidy gold (your gold better than {0} gold)
+    - Server will be maintenanced in {0:00}:{1:00}
+    - Are You Having Fun?
+    - Show Us how much you love and give it <color=yellow>5 stars!!!</color>
+    - Sever is full.
+    - Table is full.
+    - Room is not available
+    - You need to update new version to join this room
+    - Create Table
+    - 'Create Password:'
+    - Enter Password...
+    - Join Table
+    - 'Password:'
+    - 'Table ID:'
+    - Enter ID...
+    - The user id already exists.
+    - Failed to join table.
+    - Time Out
+    - Out Of Cards
+    - Victory
+    - Finish
+    - 'You don''t have enough gold. '
+    - 'Error!!! (Min bet: {0} gold)'
+    - 'Success!!! ( Bet in Lobby: {0} gold)'
+    - Error!!! (Please Choice Chair)
+    - '{0} change bet success!!! ( Bet in Lobby: {1} gold)'
+    - <size=36><color=yellow>Punish:</color></size> Destroy all <color=yellow>Attack
+      1</color> cubes and deal dame immediately
+    - <size=36><color=red>Finish Off:</color></size> Destroy all <color=red>Attack
+      2</color> cubes and deal dame immediately
+    - <size=36><color=green>Health:</color></size> Destroy all <color=green>Health:</color>
+      cubes on the battle and recover that much heal
+    - <size=36><color=blue>Mana recovery:</color></size> Destroy all <color=blue>Mana</color>
+      cubes on the battle and recover that much mana
+    - '<size=36><color=orange>Shield: </color></size>Destroy all <color=orange>Shield
+      </color>cubes on the battle and gain that much Sheild'
+    - Not enough mana
+    - skill 1 of hero 1
+    - skill 2 of hero 1
+    - skill 3 of hero 1
+    - skill 1 of hero 2
+    - skill 2 of hero 2
+    - skill 3 of hero 2
+    - skill 1 of hero 3
+    - skill 2 of hero 3
+    - skill 3 of hero 3
+    - skill 1 of hero 4
+    - skill 2 of hero 4
+    - skill 3 of hero 4
+    - skill 1 of hero 5
+    - skill 2 of hero 5
+    - skill 3 of hero 5
+    - skill 1 of hero 0
+    - skill 2 of hero 0
+    - skill 3 of hero 0
+    - 'Your Code: {0:0}'
+    - 'You have been invited by :'
+    - Enter code from the invite you received.
+    - You had been invited before.
+    - Did this User invited you?
+    - Invalid Code
+    - Could not found

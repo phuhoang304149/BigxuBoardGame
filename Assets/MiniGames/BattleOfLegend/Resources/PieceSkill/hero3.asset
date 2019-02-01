@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c88e76926c9a64b92874e628e03a83, type: 3}
+  m_Name: hero3
+  m_EditorClassIdentifier: 
+  m_Texture: {fileID: 2800000, guid: 1c2a84c80a29c415bbb5d3ff1b73637e, type: 3}
+  m_Padding: 1
+  m_MaxSize: 4096
+  m_PackingMethod: 0
+  m_DefaultPivot: 0
+  m_DefaultCustomPivot: {x: 0.5, y: 0.5}
+  m_Sprites:
+  - source: {fileID: 21300000, guid: f8a959f6a35204913830b684654a0e52, type: 3}
+    targetSprite: {fileID: 21300000, guid: 1c2a84c80a29c415bbb5d3ff1b73637e, type: 3}
+  - source: {fileID: 21300000, guid: 812b6ea52daed4e6fa8db6d56c63420d, type: 3}
+    targetSprite: {fileID: 21300002, guid: 1c2a84c80a29c415bbb5d3ff1b73637e, type: 3}
+  - source: {fileID: 21300000, guid: 9037bb047497442a18039f4395c44f66, type: 3}
+    targetSprite: {fileID: 21300004, guid: 1c2a84c80a29c415bbb5d3ff1b73637e, type: 3}
+  m_PendingActions: []

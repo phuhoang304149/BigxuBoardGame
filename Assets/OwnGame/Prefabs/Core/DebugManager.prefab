@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1462258374525152}
+  m_IsPrefabAsset: 1
+--- !u!1 &1462258374525152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4091986059792868}
+  - component: {fileID: 114752172523022948}
+  m_Layer: 0
+  m_Name: DebugManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4091986059792868
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462258374525152}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114752172523022948
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462258374525152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55393813609acaf488eb2f54dfb0b265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dataManager:
+    versionData: 0
+    _userData:
+      databaseId: 0
+      userId: 0
+      username: 
+      password: 
+      nameShowInGame: 
+      avatarid: 0
+      deviceId: 
+      facebookId: 0
+      tokenFBIdOfBusiness: 
+      gold: 0
+      timeCreateAccount: 0
+      lastTimePlay: 0
+      isInitialized: 0
+    _parentUserData:
+      databaseId: 0
+      userId: 0
+      username: 
+      password: 
+      nameShowInGame: 
+      avatarid: 0
+      deviceId: 
+      facebookId: 0
+      tokenFBIdOfBusiness: 
+      gold: 0
+      timeCreateAccount: 0
+      lastTimePlay: 0
+      isInitialized: 0
+    _achievementData:
+      listAchievementDetail: []
+      isInitialized: 0
+    _dailyRewardData:
+      listRewards: []
+      lastDayLogin: 0
+      currentDayLogin: 0
+      timeCountDownToReceiveReward: 0
+      timeCountDownToReset: 0
+      lastTimeRecieved: 0
+      nextTimeRecieved: 0
+      isInitialized: 0
+    _subsidyData:
+      countGetSubsidy: 0
+      isInitialized: 0
+    _IAPProductData:
+      listProductDetail: []
+      isInitialized: 0
+    _miniGameData:
+      listMiniGameDetail: []
+      isInitialized: 0
+    currentLanguage: 0
+    _purchaseReceiptData:
+      listPurchaseReceiptDetail: []
+      isInitialized: 0
+    _installAppData:
+      listAppDone: []
+      listCurrentAppDetail: []
+      isInitialized: 0
+    _leaderboardData:
+      topGold: []
+      isInitialized: 0
+    _bol_GameData:
+      heroData:
+        listHeroDetail: []
+        isInitialized: 0
+      isInitialized: 0
+    _subServerData:
+      listSubServerDetail: []
+      listIpForOneHit: []
+      isInitialized: 0
+    announcement: 
+    packageNameUpdate: 

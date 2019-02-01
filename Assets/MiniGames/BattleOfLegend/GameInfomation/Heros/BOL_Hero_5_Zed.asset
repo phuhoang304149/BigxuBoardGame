@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77d168c915cfcc44eaaa0979c7e689c6, type: 3}
+  m_Name: BOL_Hero_5_Zed
+  m_EditorClassIdentifier: 
+  myType: 4
+  myNameKeyLocalize: 
+  prefabsss:
+    asset: {fileID: 1608828150786898, guid: 675d4a07a20f34734af71dca29248569, type: 2}
+    assetRelativePath: HeroPrefab/Zed_5
+    assetTypeString: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  autoUnlockAtFirst: 0
+  canEnable: 0
+  baseHp: 13500
+  baseMana: 1650
+  baseShield: 600
+  baseDamageAtk1: 150
+  baseDamageAtk2: 100
+  baseDamageSkill1: 100
+  baseDamageSkill2: 150
+  baseDamageSpell: 200
+  baseDamagUtil: 250
+  expUnlockAtk2: 200
+  expUnlockSkill01: 400
+  expUnlockSkill02: 600
+  expUnlockUlti: 1000
+  skill01: {fileID: 11400000, guid: b3736c1baf6a446a3a2a78785545642b, type: 2}
+  skill02: {fileID: 11400000, guid: 3e6985f2c395a4a6fb6f6a64d054e7e6, type: 2}
+  spell: {fileID: 11400000, guid: 61dcc4ac513bc491ba835b6044a52dfb, type: 2}
+  ulti: {fileID: 11400000, guid: 039c5be3dcb79433a97839a62ac8c244, type: 2}
